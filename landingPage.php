@@ -36,9 +36,9 @@
 
 
                             <div class="px-2">
-                                <a class="myButton m-2">نسجيل دخول</a>
+                                <a class="myButton m-2" href="Login.php" style="color: #ffffff">نسجيل دخول</a>
 
-                                <a class="myButton m-2">اشترك الان</a>
+                                <a class="myButton m-2" href="Regiser.php" style="color: #ffffff">اشترك الان</a>
                             </div>
 
                         </ul>
@@ -58,7 +58,7 @@
 
                         <div class=" navbar-nav  text-right  ">
                             <a class="navbar-brand text-right" href="#">
-                                <img src="imgs/logo.png" width="200" height="80" alt="">
+                                <img src="imgs/logo.png" height="70"; alt="">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -81,9 +81,9 @@
                     </div>
 
                     <div class="py-lg-5 py-xl-5 text-md-center   text-sm-center text-lg-left text-xl-left ">
-                        <a class="myButton m-2">نسجيل دخول</a>
+                        <a class="myButton m-2" href="Login.php" style="color: #ffffff">نسجيل دخول</a>
 
-                        <a class="myButton m-2">اشترك الان</a>
+                        <a class="myButton m-2" href="Regiser.php" style="color: #ffffff">اشترك الان</a>
                     </div>
 
 
@@ -261,7 +261,7 @@
     <div class="row ">
         <div class="col-12 text-center">
 
-            <a class="myButton">اشترك الان</a>
+            <a class="myButton" href="Regiser.php" style="color: #ffffff">اشترك الان</a>
         </div>
 
     </div>
