@@ -30,20 +30,17 @@ if(isset($_POST)&&count($_POST)>0){
     if(strlen($pass)<=0){
         $msgPassError="please enter pass ..!";
     }
-$checkUser=false;
+
+
     if(strlen($user)>0&&strlen($pass)>0){
         for ($i=0;$i<count($usersActive);$i++){
             if($user==$usersActive[$i]["username"]&&$pass==$usersActive[$i]["password"]){
-                $_SESSION['newUser'] = $user;
-                $checkUser=true;
+                $_SESSION['newUser'] = [$user,$pass];
+                header("Location:index.php");
 
             }
         }
 
-
-        if ($checkUser){
-            header("Location:index.php");
-        }
     }
 }
 

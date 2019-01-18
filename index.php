@@ -1,5 +1,6 @@
 <?php
-session_start();
+//session_start();
+var_dump($_SESSION);
 if(count($_SESSION)>0){
 
     
@@ -11,7 +12,7 @@ if(count($_SESSION)>0){
 </html>
 <?php
 }else{
-    header("Location:Login.php");
+    header("Location:landingPage.php");
 }
 
 ?>
