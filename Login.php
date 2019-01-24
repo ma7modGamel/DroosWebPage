@@ -46,7 +46,7 @@ if (isset($_POST) && count($_POST) > 0) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>LogIn</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="imgs/Rxstyle.css">
